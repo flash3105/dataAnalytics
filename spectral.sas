@@ -163,7 +163,7 @@ quit;
    Question 3(c): Fit Harmonic Regression Model using CLS (OLS)
 
    Model:
-   X_t = µ
+   X_t = Âµ
          + A1 cos(2pt/6) + B1 sin(2pt/6)
          + A2 cos(2pt/12) + B2 sin(2pt/12)
          + e_t
@@ -338,7 +338,7 @@ quit;
    ------------------------------------------------------------ */
 goptions reset=all;
 
-title1 'Observed, Fitted and Forecasted Electricity Consumption (2011–2019)';
+title1 'Observed, Fitted and Forecasted Electricity Consumption (2011Â–2019)';
 
 axis1 label=(angle=90 'Electricity Consumption (kWh)');
 axis2 label=('Date');
