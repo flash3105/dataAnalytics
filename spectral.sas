@@ -1,7 +1,7 @@
 title1 'Question 3 - First Observations';
 
 data sasuser.question3;
-    infile "C:\Users\flash\Documents\2026\Masters\TRA880\Unit2\kilowatt.txt"
+    infile ...
            dlm=' '
            missover;
 
