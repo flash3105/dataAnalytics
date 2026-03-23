@@ -3,7 +3,7 @@ quit ;
 dm 'odsresults;clear';
 title ;
 
-libname q1 "C:\Users\flash\Documents\2026\Masters\MVA\assi2" ;
+libname q1 ;
 proc gplot data=q1.q1 ;
 plot x1*x2 ;
 run ;
